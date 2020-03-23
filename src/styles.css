@@ -1,0 +1,18 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.draggableItem {
+  padding: 10px 15px;
+  max-width: 180px;
+  margin: auto;
+  background: rgb(71, 119, 214);
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.draggableItem:not(:last-child) {
+  margin-bottom: 8px;
+}
